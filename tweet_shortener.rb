@@ -45,6 +45,8 @@ def selective_tweet_shortener(tweet)
   end
 end
 
+#selective_tweet_shortener does not shorten tweets that are less than 130 characters
+
 def shortened_tweet_truncator(tweet)
   tweet.split(" ").map do |phrase|
     if phrase.length > 140
