@@ -51,7 +51,6 @@ def shortened_tweet_truncator(tweet)
     else
       binding.pry
       tweet
-    end
   end.join(" ")
 end
 
