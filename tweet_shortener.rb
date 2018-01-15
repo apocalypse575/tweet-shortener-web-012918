@@ -50,7 +50,7 @@ def shortened_tweet_truncator(tweet)
       word_substituter(tweet)[0..140] + "..."
     else
       tweet
-  end.join(" ")
+  end
 end
 
 #shortened_tweet_truncator truncates tweets over 140 characters after shortening
