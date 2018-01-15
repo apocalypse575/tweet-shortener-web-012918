@@ -41,7 +41,6 @@ def selective_tweet_shortener(tweet)
     elsif tweet.length < 130
       tweet
     end
-  end
 end
 
 #selective_tweet_shortener does not shorten tweets that are less than 130 characters
