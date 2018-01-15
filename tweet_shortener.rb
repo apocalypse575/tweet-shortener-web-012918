@@ -1,6 +1,6 @@
 # Write your code here.
 
-require = "pry"
+require "pry"
 
 def dictionary
   convert = {
@@ -40,6 +40,7 @@ def selective_tweet_shortener(tweet)
     if phrase.length > 140
       word_substituter(phrase)
     elsif phrase.length < 130
+      binding.pry
       phrase
     end
   end
