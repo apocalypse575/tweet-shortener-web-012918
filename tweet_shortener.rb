@@ -42,7 +42,7 @@ def selective_tweet_shortener(tweet)
     elsif phrase.length < 130
       phrase
     end
-  end
+  end.join(" ")
 end
 
 #selective_tweet_shortener does not shorten tweets that are less than 130 characters
